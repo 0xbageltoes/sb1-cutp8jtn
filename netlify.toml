@@ -18,9 +18,6 @@
   node_bundler = "esbuild"
   included_files = ["node_modules/@next/swc-wasm-nodejs/**/*"]
 
-[build.environment]
-  NEXT_TELEMETRY_DISABLED = "1"
-
 [dev]
   framework = "#static"
   command = "npm run dev"
